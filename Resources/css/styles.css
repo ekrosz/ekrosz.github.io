@@ -50,6 +50,18 @@ div.profile-form {
     text-align: center;
 }
 
+div.form-class {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 600px;
+    text-align: center;
+    
+    background-color: #67afaf;
+    border-color: 2px solid #135252;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
 h1 {
     align-items: center;
     text-align: center;
@@ -126,17 +138,7 @@ a {
     color: white;
 }
 
-form {
-    margin: 0 auto;
-    margin-top: 15px;
-    width: 600px;
-    text-align: center;
-    
-    background-color: #67afaf;
-    border-color: 2px solid #135252;
-    box-sizing: border-box;
-    border-radius: 20px;
-}
+
 
 img.logo-center {
     display: block;

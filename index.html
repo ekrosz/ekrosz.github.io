@@ -22,43 +22,43 @@
         <div>
             <img src="/Resources/images/Logo.jpg" class="logo-center"/>
             <h1 class="text-authorization">Авторизация</h1>
-            <form>
-                <div class="container">
-                    <label class="label-form">Регион</label>
-                    <select name="cbRegion" class="form-select" aria-label="Default select example">
-                        <option selected>Регион</option>
-                    </select>
-                </div>
-                <div class="container">
-                    <label class="label-form">Городской округ</label>
-                    <select name="cbUrbanDistrict" class="form-select" aria-label="Default select example">
-                        <option selected>Городской округ</option>
-                    </select>
-                </div>
-                <div class="container">
-                    <label class="label-form">Населенный пункт</label>
-                    <select name="cbCity" class="form-select" aria-label="Default select example">
-                        <option selected>Населенный пункт</option>
-                    </select>
-                </div>
-                <div class="container">
-                    <label class="label-form">Образовательная организация</label>
-                    <select name="cbSchool" class="form-select" aria-label="Default select example">
-                        <option selected>Образовательная организация</option>
-                    </select>
-                </div>
-                <div class="container">
-                    <label class="label-form">Логин</label>
-                    <input name="inBoxLogin" class="form-control" placeholder="Введите логин"/>
-                </div>
-                <div class="container">
-                    <label class="label-form">Пароль</label>
-                    <input name="inBoxPassword" class="form-control" placeholder="Введите пароль"/>
-                </div>
-                <a href="/DiaryPage.html">
-                    <button class="confirm" name="btnSignIn" type="submit">Войти</button>
-                </a>
-            </form>
+            <div class="form-class">
+                <form>
+                    <div class="container">
+                        <label class="label-form">Регион</label>
+                        <select name="cbRegion" class="form-select" aria-label="Default select example">
+                            <option selected>Регион</option>
+                        </select>
+                    </div>
+                    <div class="container">
+                        <label class="label-form">Городской округ</label>
+                        <select name="cbUrbanDistrict" class="form-select" aria-label="Default select example">
+                            <option selected>Городской округ</option>
+                        </select>
+                    </div>
+                    <div class="container">
+                        <label class="label-form">Населенный пункт</label>
+                        <select name="cbCity" class="form-select" aria-label="Default select example">
+                            <option selected>Населенный пункт</option>
+                        </select>
+                    </div>
+                    <div class="container">
+                        <label class="label-form">Образовательная организация</label>
+                        <select name="cbSchool" class="form-select" aria-label="Default select example">
+                            <option selected>Образовательная организация</option>
+                        </select>
+                    </div>
+                    <div class="container">
+                        <label class="label-form">Логин</label>
+                        <input name="inBoxLogin" class="form-control" placeholder="Введите логин"/>
+                    </div>
+                    <div class="container">
+                        <label class="label-form">Пароль</label>
+                        <input name="inBoxPassword" class="form-control" placeholder="Введите пароль"/>
+                    </div>
+                </form>
+                <button class="confirm" name="btnSignIn" type="submit" onclick="location.href='SchedulePage.html';">Войти</button>
+            </div>
         </div>
     </body>
 </html>
