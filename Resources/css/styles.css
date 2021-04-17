@@ -50,7 +50,7 @@ div.profile-form {
     text-align: center;
 }
 
-div.form-class {
+div.index-form {
     margin: 0 auto;
     margin-top: 15px;
     width: 600px;
@@ -137,7 +137,6 @@ a {
     font-size: large;
     color: white;
 }
-
 
 
 img.logo-center {
