@@ -1,0 +1,181 @@
+html { 
+    overflow-x: hidden; 
+}
+
+body.index-page {
+    height: 100%;
+    margin: 0;
+
+    background-color: #1D7373;
+}
+
+body.profile-page {
+    height: 100%;
+    margin: 0;
+
+    background-color: #86BFBF;
+}
+
+div.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1D7373;
+  }
+
+div.header {
+    background-color: #1D7373;
+}
+
+div.navbar-btnGroup {
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: #135252;
+}
+
+div.select-container {
+    text-align: center;
+    margin: auto 0;
+}
+
+div.align-right {
+    margin-left: 70px;
+    margin-right: 70px;
+    align-items: right;
+    text-align: right;
+}
+
+div.profile-form {
+    text-align: center;
+}
+
+h1 {
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+
+    color: white;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+}
+
+h3 {
+    align-items: left;
+    text-align: left;
+    margin-top: 2px;
+    margin-left: 4px;
+    font-size: 20px;
+
+    color: white;
+}
+
+h4 {
+    margin-top: 15px;
+}
+
+h6.footer-right {
+    display: block;
+    align-items: right;
+    text-align: right;
+    margin-right: 15px;
+
+    font-size: large;
+}
+
+h6.footer-left {
+    display: block;
+    align-items: left;
+    text-align: left;
+    margin-left: 15px;
+
+    font-size: large;
+}
+
+label.label-date {
+    display: block;
+    align-items: right;
+    text-align: right;
+    margin-right: 15px;
+
+    font-size: 18px;
+    color: white;
+}
+
+label.label-form {
+    display: block;
+    align-items: left;
+    text-align: left;
+    margin-top: 10px;
+
+    font-size:large;
+    color: white;
+}
+
+a {
+    display: block;
+    align-items: right;
+    text-align: right;
+    margin-right: 15px;
+
+    font-size: large;
+    color: white;
+}
+
+form {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 600px;
+    text-align: center;
+    
+    background-color: #67afaf;
+    border-color: 2px solid #135252;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+img.logo-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 20%;
+}
+
+img.logo-header {
+    display: block;
+    width: 250px;
+    margin-left: 2px;
+}
+
+button.confirm {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 50px;
+
+    color: white;
+    font-size: large;
+    background-color: #135252;
+    border-radius: 7px;
+}
+
+button.navbar-button {
+    width: 250px;
+    height: 50px;
+    align-items: left;
+
+    color: white;
+    font-size: large;
+    background-color: #135252;
+}
+
+select.select-date {
+    width: 250px;
+    height: 30px;
+    margin-top: 15px;
+}
